@@ -3,9 +3,17 @@
  */
 package Kapitel1;
 
+import Kapitel1.Simuduck.Duck;
+import Kapitel1.Simuduck.MallardDuck;
+import Kapitel1.Simuduck.RubberDuck;
+
 public class App {
 
     public static void main(String[] args) {
+        Duck a = new MallardDuck();
+        a.performFly();
 
+        a = new RubberDuck();
+        a.performFly();
     }
 }

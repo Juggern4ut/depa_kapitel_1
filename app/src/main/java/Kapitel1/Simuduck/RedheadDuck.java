@@ -1,4 +1,4 @@
-package kapitel_1.simuduck_base;
+package Kapitel1.Simuduck;
 
 public class RedheadDuck extends Duck {
     @Override

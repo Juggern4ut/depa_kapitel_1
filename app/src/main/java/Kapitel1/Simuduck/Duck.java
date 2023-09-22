@@ -1,4 +1,4 @@
-package kapitel_1.simuduck_base;
+package Kapitel1.Simuduck;
 
 public abstract class Duck {
     public void quack() {
@@ -7,6 +7,10 @@ public abstract class Duck {
 
     public void swim() {
         System.out.println("swim() by class Duck");
+    }
+
+    public void fly() {
+        System.out.println("fly() by class Duck");
     }
 
     public abstract void display();
